@@ -1,0 +1,22 @@
+.editor-search {
+    display:flex;
+    gap:10px;
+}
+
+.editor-search input {
+    flex-grow: 1;
+    padding:10px;
+    border:1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+}
+
+.editor-search button {
+    /* margin-left:2px; */
+    min-width: 70px;;
+    background-color:rgb(74, 3, 216);
+    padding:10px;
+    border:1px solid rgb(74, 3, 216);
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
